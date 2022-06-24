@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+	list-style: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.wrap {
+/* 	border: 1px solid red; */
+	width: 520px;
+	height: 520px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wrap .nate_home a {
+	font-size: 60px;
+	color: red;
+	font-weight: bold;
+}
+
+.wrap .join_tit {
+	margin-top: 30px;
+}
+
+.wrap .agree_btn {
+	margin: 30px auto 0;
+	width: 400px;
+	border: 1px solid black;
+	padding: 20px 0;
+	text-align: left;
+}
+
+.wrap .agree_btn input {
+	margin-left: 10px;
+}
+
+.wrap .agree_btn span {
+	margin-left: 140px;
+	font-size: 20px;
+}
+
+.wrap .chk_wrap {
+/* 	border: 1px solid red; */
+	width: 400px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.wrap .chk_wrap .sub_tit p {
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.wrap .chk_wrap .chk {
+	margin-top: 15px;
+}
+
+.wrap .chk_wrap .next_btn {
+/* 	border: 1px solid red; */
+	text-align: center;
+	margin-top: 20px;
+	background-color: #f1f1f0;
+	padding: 20px 0;
+}
+
+.wrap .chk_wrap .next_btn a {
+	color: gray;
+}

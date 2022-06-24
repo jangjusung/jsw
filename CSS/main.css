@@ -1,0 +1,503 @@
+@charset "UTF-8";
+
+* {
+	list-style: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* ■■■■■■■■■■■■■■■■■■■■ HEADER ■■■■■■■■■■■■■■■■■■■■ */
+header {
+	width: 1200px;
+	margin: 0 auto;
+/* 	border: 1px solid red; */
+}
+
+header a {
+	text-decoration: none;
+	color: #000;
+}
+
+header .nateMain {
+	display: inline-block;
+	width: 150px;
+}
+
+.nateMain p {
+	font-size: 14px;
+}
+
+header .topNav {
+	float: right;
+	
+}
+
+.topNav ul li {
+	display: inline;
+	margin: 0 10px;
+	font-size: 14px
+}
+
+header .navWrap {
+	margin-top: 10px;
+	display: flex;
+}
+
+a.symbol img {
+	width: 133px;
+	height: 26px;
+}
+
+.navWrap ul {
+	width: 900px;
+	margin-left: 100px;
+	text-align: center;
+/* 	border: 1px solid red; */
+}
+
+.navWrap ul li {
+	display: inline;
+	margin: 0 12px;
+	font-size: 17px;
+}
+
+.navWrap .outLink {
+	width: 350px;
+	margin-left: 300px;
+	text-align: center;
+}
+
+.navWrap .outLink p {
+	display: inline-block;
+	padding: 0 10px;
+	border: 1px solid #808080;
+	border-radius: 8px;
+	color: #808080;
+}
+
+/* ■■■■■■■■■■■■■■■■■■■■ SECTION.MAIN1 ■■■■■■■■■■■■■■■■■■■■ */
+section.main1 .banner {
+/* 	border: 1px solid blue; */
+	text-align: center;
+	margin-top: 30px;
+	background-color: #2b66fe;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+}
+
+.banner span {
+	color: #ffff;
+}
+
+.banner strong {
+	color: yellow;
+}
+
+section.main1 .main {
+	background-color: #7f99e3;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+}
+
+section.main1 .main .title {
+	width: 410px;
+	height: 490px;
+/* 	border: 1px solid red; */
+	color: #ffff;
+	margin: 100px 30px 0 0;
+}
+
+.main .title .main_title {
+/* 	border: 1px solid red; */
+	width: 410px;
+	height: 230px;
+	
+}
+
+.title .main_title h3 {
+	font-size: 55px;
+}
+
+.main .title .sub_title {
+/* 	border: 2px solid orange; */
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.main .title .down_link {
+/* 	text-align: center; */
+	margin-top: 30px;
+}
+
+.main .title a img{
+	width: 180px;
+	height: 57px;
+	margin: 5px;	
+}
+
+.main .img_box {
+	margin-top: 30px;
+	width: 440px;
+	height: 760px;
+	text-align: center;
+}
+
+.main .img_box img {
+	width: 300px;
+	height: 300px;
+}
+
+/* ■■■■■■■■■■■■■■■■■■■■ SECTION.MAIN2 ■■■■■■■■■■■■■■■■■■■■ */
+section.main2 {
+/* 	border: 1px solid red; */
+	width: 100%;
+	height: 800px;
+	background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.main2 h2 {
+	display: none;
+}
+
+section.main2 .main {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.main2 .main .img_box {
+/* 	border: 1px solid black; */
+	width: 576px;
+	height: 730px;
+}
+
+.main2 .main .img_box img {
+	width: 576px;
+	height: 730px;
+/* 	border: 2px solid red; */
+}
+
+.main2 .main .title {
+/* 	border: 2px solid orange; */
+	width: 500px;
+	height: 730px;
+}
+
+.main2 .main .title .main_title {
+/* 	border: 1px solid black; */
+	margin-top: 200px;
+	width: 500px;
+}
+
+.main2 .main .title .main_title p {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.main2 .main .title .main_title .main_txt {
+/* 	border: 1px solid black; */
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+
+
+/* ■■■■■■■■■■■■■■■■■■■■ SECTION.MAIN3 ■■■■■■■■■■■■■■■■■■■■ */
+section.main3 {
+	width: 100%;
+	height: 800px;
+/* 	border: 2px solid red; */
+	background-color: #f3f4f9;
+}
+
+.main3 .main {
+	display: flex;
+	justify-content: center;
+}
+
+.main3 .main .title {
+/* 	border: 2px solid orange; */
+	width: 550px;
+	height: 300px;
+	margin: 250px 180px 0 0;
+}
+
+.main3 .main .title .main_title {
+	height: 110px;
+	width: 550px;
+/* 	border: 1px solid black; */
+}
+
+.main3 .main .title .main_title h3 {
+	font-size: 40px;
+}
+
+.main3 .main .title .sub_title {
+	margin-top: 40px;
+}
+
+.main3 .main .title .sub_title p {
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.main3 .main .img_box {
+	width: 255px;
+	height: 100%;
+/* 	border: 1px solid orange; */
+}
+
+.main3 .main .img_box img {
+	width: 255px;
+	height: 800px;
+}
+
+/* ■■■■■■■■■■■■■■■■■■■■ SECTION.MAIN4 ■■■■■■■■■■■■■■■■■■■■ */
+section.main4 {
+	width: 100%;
+	height: 800px;
+/* 	border: 1px solid red; */
+	background-color: #56689A;
+}
+
+.main4 .main {
+	width: 1100px;
+/* 	border: 2px solid red; */
+	margin: 0 auto;
+	padding-top: 150px;
+	color: #ffff;
+}
+
+.main4 .main .title h3 {
+	font-size: 40px;
+}
+
+.main4 .main .tr_list {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+/* 	border: 1px solid white; */
+}
+
+.main4 .main .tr_list img {
+	width: 130px;
+	height: 130px;
+}
+
+.main4 .main .tr_list .tr_maintxt {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.main4 .main .tr_list p {
+	font-size: 14px;
+	margin-top: 25px;
+	line-height: 30px;
+	color: lightgray;
+}
+
+.main4 .main .tr_list .tr2 {
+	margin: 0 130px;
+}
+
+/* ■■■■■■■■■■■■■■■■■■■■ SECTION.MAIN5 ■■■■■■■■■■■■■■■■■■■■ */
+section.main5 {
+	width: 100%;
+	height: 800px;
+/* 	border: 2px solid red; */
+	background-color: #FFFAFA;
+}
+
+.main5 .main {
+	display: flex;
+	width: 1100px;
+	height: 800px;
+/* 	border: 1px solid black; */
+	margin: 0 auto;
+}
+
+.main5 .main .txt_box {
+/* 	border: 2px solid orange; */
+	height: 387px;
+	margin-top: 220px;
+}
+
+.main5 .main .txt_box .main_txt {
+/* 	border: 1px solid red; */
+	width: 480px;
+}
+
+.main5 .main .txt_box .main_txt h3 {
+	font-size: 35px;
+}
+
+.main5 .main .txt_box .emoticon {
+	margin-top: 50px;
+}
+
+.main5 .main .txt_box .emoticon img {
+	width: 57px;
+	height: 57px;
+}
+
+.main5 .main .txt_box .sub_txt .subtit {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.main5 .main .txt_box .sub_txt p {
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+.main5 .main .img_box {
+
+	
+	width: 546px;
+	height: 520px;
+/* 	border: 2px solid orange; */
+	margin-top: 120px;
+	position: relative;
+	margin-left: 70px;
+}
+
+.main5 .main .img_box img:nth-child(1) {
+	width: 546px;
+	height: 516px;
+}
+
+.main5 .main .img_box img:nth-child(2) {
+	width: 224px;
+	height: 224px;
+	position: absolute;
+	top: 273px;
+	left: 0;
+}
+
+/* ■■■■■■■■■■■■■■■■■■■■ SECTION.MAIN6 ■■■■■■■■■■■■■■■■■■■■ */
+section.main6 {
+	background: #8692a2;
+	width: 100%;
+	height: 600px;
+	color: #ffff;
+/* 	border: 1px solid red; */
+}
+
+.main6 .main {
+	width: 1100px;
+	height: 550px;
+/* 	border: 1px solid red; */
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.main6 .main .txt_box .main_txt h3 {
+	font-size: 35px;
+}
+
+.main6 .main .txt_box .sub_txt {
+	margin-top: 40px;
+}
+
+.main6 .main .txt_box .down_list {
+	margin-top: 100px;
+	display: flex;
+}
+
+.main6 .main .txt_box .down_list .dwn {
+	width: 300px;
+	height: 131px;
+/* 	border: 1px solid white; */
+}
+
+.main6 .main .txt_box .down_list .dwn img {
+	width: 15px;
+	height: 15px;
+}
+
+.main6 .main .txt_box .down_list .dwn p {
+/* 	display: block; */
+	border: 3px solid white;
+	margin-top: 20px;
+}
+
+.main6 .main .txt_box .down_list .dwn a {
+	display: inline-block;
+	margin-top: 20px;
+	
+}
+
+.main6 .main .txt_box .down_list .dwn .dwn_win {
+/* 	border: 1px solid red; */
+	position: relative;
+}
+
+.main6 .main .txt_box .down_list .dwn .dwn_win img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.main6 .main .txt_box .down_list .dwn .dwn_mac {
+	position: relative;
+}
+
+.main6 .main .txt_box .down_list .dwn .dwn_mac img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.main6 .main .txt_box .down_list .dwn .dwn_android {
+	position: relative;
+}
+
+.main6 .main .txt_box .down_list .dwn .dwn_android img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.main6 .main .txt_box .down_list .dwn .dwn_ios {
+	position: relative;
+}
+
+.main6 .main .txt_box .down_list .dwn .dwn_ios img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.main6 .main .txt_box .down_list .dwn2 {
+	margin: 0 45px;
+}
+
+/* ■■■■■■■■■■■■■■■■■■■■ FOOTER ■■■■■■■■■■■■■■■■■■■■ */
+footer {
+	width: 100%;
+	height: 85px;
+}
+
+footer .footer_wrap {
+	width: 1100px;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	line-height: 80px;
+	justify-content: space-around;
+	font-size: 12px;
+}
+iframe {
+	border-radius: 0.8rem;
+}

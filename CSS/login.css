@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+	list-style: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.wrap {
+	width: 410px;
+	height: 360px;
+	margin: 80px auto 0;
+/* 	border: 1px solid red; */
+	text-align: center;
+	padding-top: 20px;
+}
+
+.wrap .nate_home {
+	
+}
+
+.wrap .nate_home a {
+	font-size: 60px;
+	color: red;
+	font-weight: bold;
+}
+
+.wrap .id_box {
+	margin: 10px 0;
+/* 	border: 1px solid red; */
+}
+
+.wrap .id_box input {
+	width: 100%;
+	padding: 20px 0 8px;
+	border-bottom: 1px solid black;
+}
+
+.wrap .id_box input::placeholder {
+	font-size: 18px;
+}
+
+.wrap .pw_box input {
+	width: 100%;
+	padding: 20px 0 8px;
+	border-bottom: 1px solid black;
+}
+
+.wrap .pw_box input::placeholder {
+	font-size: 18px;
+}
+
+.wrap .login_btn {
+	width: 410px;
+	border: 1px solid black;
+	margin-top: 30px;
+}
+
+.wrap .login_btn input {
+	width: 410px;
+	background-color: #eb2d27;
+	color: white;
+	padding: 12px 0;
+	font-size: 18px;
+}
+
+.wrap .svc_btn {
+	margin-top: 30px;
+	border-top: 1px solid black;
+	padding-top: 10px;
+}
